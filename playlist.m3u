@@ -9,6 +9,12 @@ https://ava2.store/upload/ava.m3u8
 #EXTINF:-1,KU | KURDISTAN 24 TV
 http://line.trxdnscloud.ru:80/live/1naebx0n1p/en1cy28eqj/324572.ts
 
+#EXTINF:-1,KU | KURDMAX TV HD
+http://line.trxdnscloud.ru:80/live/1naebx0n1p/en1cy28eqj/324575.ts
+
+#EXTINF:-1,KU | KURDMAX SHOW TV
+http://line.trxdnscloud.ru:80/live/1naebx0n1p/en1cy28eqj/324577.ts
+
 #EXTINF:-1,KU | SPEDA TV HD
 http://line.trxdnscloud.ru:80/live/1naebx0n1p/en1cy28eqj/324587.ts
 
@@ -218,12 +224,6 @@ http://185.95.184.33:25461/live/120541/20364/128.m3u8
 
 #EXTINF:-1,KU | NRT4 TV HD
 http://185.95.184.33:25461/live/120541/20364/156.m3u8
-
-#EXTINF:-1,KU | KURDMAX TV HD
-http://line.trxdnscloud.ru:80/live/1naebx0n1p/en1cy28eqj/324575.ts
-
-#EXTINF:-1,KU | KURDMAX SHOW TV
-http://line.trxdnscloud.ru:80/live/1naebx0n1p/en1cy28eqj/324577.ts
 
 #EXTINF:-1,KU | BARIN MOVIES TV
 https://cdn.karwan.tv/barin-movies/index.m3u8
