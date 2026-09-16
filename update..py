@@ -1,14 +1,13 @@
-import requests
+import urllib.request
 
-SOURCE_URL = "https://raw.githubusercontent.com/kurdishiptvchannels/KURDISTANIPTV/refs/heads/main/KURDISTAN%20IPTV.m3u"
+url = "https://raw.githubusercontent.com/kurdishiptvchannels/KURDISTANIPTV/refs/heads/main/KURDISTAN%20IPTV.m3u"
 
 try:
-  response = requests.get(SOURCE_URL)
-  if response.status_code == 200:
+  req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+  with urllib.request.urlopen(req) as response:
+    content = response.read().decode("utf-8")
     with open("playlist.m3u", "w", encoding="utf-8") as f:
-      f.write(response.text)
-    print("Playlist updated successfully!")
-  else:
-    print("Error downloading:", response.status_code)
+      f.write(content)
+  print("Updated successfully!")
 except Exception as e:
   print("Error:", e)
